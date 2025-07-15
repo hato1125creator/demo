@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="千葉英和高校生徒会公式サイト「英和コネクト」- 生徒一人ひとりが理想とする自分に向かって進むことのできる学校をつくる">
+    <meta name="keywords" content="千葉英和高校,生徒会,英和コネクト,梨花祭,学校生活">
+    <meta name="author" content="千葉英和高校生徒会">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ceh-student-council.jp/">
+    <meta property="og:title" content="千葉英和高校生徒会公式サイト「英和コネクト」">
+    <meta property="og:description" content="生徒一人ひとりが理想とする自分に向かって進むことのできる学校をつくる">
+    <meta property="og:image" content="assets/images/school_building.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ceh-student-council.jp/">
+    <meta property="twitter:title" content="千葉英和高校生徒会公式サイト「英和コネクト」">
+    <meta property="twitter:description" content="生徒一人ひとりが理想とする自分に向かって進むことのできる学校をつくる">
+    <meta property="twitter:image" content="assets/images/school_building.jpg">
+
+    <title>千葉英和高校生徒会公式サイト「英和コネクト」</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ヘッダー・ナビゲーション -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="メインナビゲーション">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="assets/images/school_logo.jpg" alt="千葉英和高校校章" class="nav-logo">
+                    <span class="nav-title">英和コネクト</span>
+                </div>
+                
+                <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+                    <span class="nav-toggle-line"></span>
+                    <span class="nav-toggle-line"></span>
+                    <span class="nav-toggle-line"></span>
+                </button>
+                
+                <ul class="nav-menu" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a href="#about" class="nav-link" role="menuitem">生徒会について</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#members" class="nav-link" role="menuitem">メンバー紹介</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#rikasai" class="nav-link" role="menuitem">梨花祭</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#achievements" class="nav-link" role="menuitem">実績・声</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#faq" class="nav-link" role="menuitem">FAQ</a>
+                    </li>
+                    <li class="nav-item nav-item--cta" role="none">
+                        <a href="#contact" class="nav-link nav-link--cta" role="menuitem">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main role="main">
+        <!-- ヒーローセクション -->
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="hero-background">
+                <img src="assets/images/school_building.jpg" alt="千葉英和高校校舎" class="hero-bg-image">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-container">
+                    <h1 id="hero-title" class="hero-title">
+                        <span class="hero-title-line">千葉英和高校の「今」がわかる。</span>
+                        <span class="hero-title-line">生徒会が紡ぐ、未来の学校生活。</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        生徒一人ひとりが理想とする自分に向かって進むことのできる学校をつくる
+                    </p>
+                    
+                    <div class="hero-cta">
+                        <a href="#about" class="btn btn--primary">生徒会の活動を見る</a>
+                        <a href="#contact" class="btn btn--secondary">意見・お問い合わせ</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-scroll-indicator" aria-hidden="true">
+                <span class="hero-scroll-text">スクロール</span>
+                <div class="hero-scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- 生徒会について -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="about-title" class="section-title">
+                        生徒会って、何してるの？<br>
+                        <span class="section-title-accent">あなたの学校生活を彩る4つの柱</span>
+                    </h2>
+                </header>
+                
+                <div class="about-grid">
+                    <article class="about-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">情報発信</h3>
+                        <p class="about-card-description">
+                            学校行事や重要なお知らせを、わかりやすく迅速にお届け。生徒の皆さんが必要な情報を見逃さないよう、様々な方法で発信しています。
+                        </p>
+                        <div class="about-card-stats">
+                            <span class="about-card-stat">月間30件以上の情報発信</span>
+                        </div>
+                    </article>
+                    
+                    <article class="about-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="m22 21-3-3m0 0a5.5 5.5 0 1 0-7.78-7.78 5.5 5.5 0 0 0 7.78 7.78Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">活動報告</h3>
+                        <p class="about-card-description">
+                            生徒会の活動内容や会議の議事録を透明性を持って公開。皆さんの声がどのように学校運営に反映されているかをお伝えします。
+                        </p>
+                        <div class="about-card-stats">
+                            <span class="about-card-stat">月2回の定期報告</span>
+                        </div>
+                    </article>
+                    
+                    <article class="about-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14,2 14,8 20,8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10,9 9,9 8,9"/>
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">手続き効率化</h3>
+                        <p class="about-card-description">
+                            各種申請書や提出物をオンライン化し、手続きを簡単に。時間を有効活用できるよう、デジタル化を推進しています。
+                        </p>
+                        <div class="about-card-stats">
+                            <span class="about-card-stat">処理効率30%向上</span>
+                        </div>
+                    </article>
+                    
+                    <article class="about-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                                <line x1="3" y1="6" x2="21" y2="6"/>
+                                <path d="M16 10a4 4 0 0 1-8 0"/>
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">部活動支援</h3>
+                        <p class="about-card-description">
+                            部活動や委員会活動がより充実するよう、予算配分や設備改善を支援。皆さんの活動がより良いものになるよう取り組んでいます。
+                        </p>
+                        <div class="about-card-stats">
+                            <span class="about-card-stat">年間50件の改善実施</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 生徒会メンバー紹介 -->
+        <section class="members" id="members" aria-labelledby="members-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="members-title" class="section-title">
+                        生徒会メンバー紹介
+                        <span class="section-title-accent">一人ひとりの個性が学校を変える</span>
+                    </h2>
+                </header>
+                
+                <div class="members-grid">
+                    <article class="member-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-card-image">
+                            <div class="member-avatar">
+                                <span class="member-initial">会長</span>
+                            </div>
+                        </div>
+                        <div class="member-card-content">
+                            <h3 class="member-name">田中 太郎</h3>
+                            <p class="member-role">生徒会長</p>
+                            <p class="member-class">3年A組</p>
+                            <blockquote class="member-quote">
+                                "みんなが笑顔で過ごせる学校を目指して、一歩ずつ前進していきます。"
+                            </blockquote>
+                            <div class="member-tags">
+                                <span class="member-tag">バスケットボール</span>
+                                <span class="member-tag">読書</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="member-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-card-image">
+                            <div class="member-avatar">
+                                <span class="member-initial">副会長</span>
+                            </div>
+                        </div>
+                        <div class="member-card-content">
+                            <h3 class="member-name">佐藤 花子</h3>
+                            <p class="member-role">副会長</p>
+                            <p class="member-class">2年B組</p>
+                            <blockquote class="member-quote">
+                                "生徒の皆さんの声を大切に、より良い学校づくりに貢献したいです。"
+                            </blockquote>
+                            <div class="member-tags">
+                                <span class="member-tag">吹奏楽</span>
+                                <span class="member-tag">料理</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="member-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-card-image">
+                            <div class="member-avatar">
+                                <span class="member-initial">書記</span>
+                            </div>
+                        </div>
+                        <div class="member-card-content">
+                            <h3 class="member-name">鈴木 次郎</h3>
+                            <p class="member-role">書記</p>
+                            <p class="member-class">2年C組</p>
+                            <blockquote class="member-quote">
+                                "正確な記録と情報発信で、透明性のある生徒会運営を支えます。"
+                            </blockquote>
+                            <div class="member-tags">
+                                <span class="member-tag">写真</span>
+                                <span class="member-tag">プログラミング</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="member-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-card-image">
+                            <div class="member-avatar">
+                                <span class="member-initial">会計</span>
+                            </div>
+                        </div>
+                        <div class="member-card-content">
+                            <h3 class="member-name">山田 美咲</h3>
+                            <p class="member-role">会計</p>
+                            <p class="member-class">1年D組</p>
+                            <blockquote class="member-quote">
+                                "予算を適切に管理し、みんなの活動がより充実するよう努めます。"
+                            </blockquote>
+                            <div class="member-tags">
+                                <span class="member-tag">数学</span>
+                                <span class="member-tag">テニス</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 梨花祭について -->
+        <section class="rikasai" id="rikasai" aria-labelledby="rikasai-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="rikasai-title" class="section-title">
+                        梨花祭について
+                        <span class="section-title-accent">伝統と革新が織りなす、特別な3日間</span>
+                    </h2>
+                </header>
+                
+                <div class="rikasai-content">
+                    <div class="rikasai-intro" data-aos="fade-up">
+                        <div class="rikasai-intro-text">
+                            <h3 class="rikasai-intro-title">梨花祭の由来</h3>
+                            <p class="rikasai-intro-description">
+                                梨花祭は、千葉英和高校の創立当初から続く伝統ある文化祭です。校名の「英和」と千葉県の特産品である梨の花を組み合わせ、
+                                「英知と和の心を持って、美しく咲き誇る」という願いが込められています。
+                            </p>
+                            <p class="rikasai-intro-description">
+                                毎年秋に開催される梨花祭は、生徒たちの創造性と協調性を育む大切な行事として、
+                                地域の皆様にも愛され続けています。
+                            </p>
+                        </div>
+                        <div class="rikasai-intro-image">
+                            <img src="assets/images/pear_flower.jpg" alt="梨の花" class="rikasai-flower-image">
+                        </div>
+                    </div>
+                    
+                    <div class="rikasai-timeline" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="rikasai-timeline-title">今年の梨花祭</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">テーマ発表</h4>
+                                    <p class="timeline-date">2024年6月</p>
+                                    <p class="timeline-description">今年のテーマ「つながり〜Beyond the Boundaries〜」を発表</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">企画募集</h4>
+                                    <p class="timeline-date">2024年7月</p>
+                                    <p class="timeline-description">各クラス・部活動からの企画提案を募集開始</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">準備期間</h4>
+                                    <p class="timeline-date">2024年8月〜10月</p>
+                                    <p class="timeline-description">各団体が企画の準備・制作に取り組む</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">梨花祭開催</h4>
+                                    <p class="timeline-date">2024年11月2日〜4日</p>
+                                    <p class="timeline-description">3日間にわたって開催される文化祭</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 実績と生徒の声 -->
+        <section class="achievements" id="achievements" aria-labelledby="achievements-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="achievements-title" class="section-title">
+                        実績と生徒の声
+                        <span class="section-title-accent">みんなで作り上げた成果</span>
+                    </h2>
+                </header>
+                
+                <div class="achievements-content">
+                    <div class="achievements-list" data-aos="fade-up">
+                        <h3 class="achievements-subtitle">主な実績</h3>
+                        <div class="achievement-items">
+                            <article class="achievement-item">
+                                <div class="achievement-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M8 2v4"/>
+                                        <path d="M16 2v4"/>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"/>
+                                        <path d="M3 10h18"/>
+                                    </svg>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4 class="achievement-title">Wi-Fi環境の改善</h4>
+                                    <p class="achievement-description">校内全域でのWi-Fi接続速度を50%向上させました</p>
+                                    <span class="achievement-date">2024年4月実施</span>
+                                </div>
+                            </article>
+                            
+                            <article class="achievement-item">
+                                <div class="achievement-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4 class="achievement-title">梨花祭来場者数増加</h4>
+                                    <p class="achievement-description">昨年比20%増の来場者数を記録しました</p>
+                                    <span class="achievement-date">2023年11月</span>
+                                </div>
+                            </article>
+                            
+                            <article class="achievement-item">
+                                <div class="achievement-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                                        <rect width="8" height="4" x="8" y="2" rx="1" ry="1"/>
+                                    </svg>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4 class="achievement-title">制服改善プロジェクト</h4>
+                                    <p class="achievement-description">生徒の要望を反映した制服の一部改良を実現</p>
+                                    <span class="achievement-date">2024年3月実施</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <div class="student-voices" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="voices-subtitle">生徒の声</h3>
+                        <div class="voices-carousel">
+                            <div class="voice-item active">
+                                <blockquote class="voice-quote">
+                                    "生徒会の活動のおかげで、学校生活がより充実したものになりました。
+                                    特にWi-Fi環境の改善は、オンライン授業や調べ学習に大変役立っています。"
+                                </blockquote>
+                                <cite class="voice-author">3年 A.S.さん</cite>
+                            </div>
+                            <div class="voice-item">
+                                <blockquote class="voice-quote">
+                                    "意見箱に投稿した提案が実際に検討され、改善につながったときは本当に嬉しかったです。
+                                    生徒の声がしっかりと届いていることを実感できました。"
+                                </blockquote>
+                                <cite class="voice-author">2年 M.T.さん</cite>
+                            </div>
+                            <div class="voice-item">
+                                <blockquote class="voice-quote">
+                                    "梨花祭の企画運営に参加して、多くの仲間と協力する楽しさを知りました。
+                                    生徒会の皆さんのサポートがあったからこそ、成功できたと思います。"
+                                </blockquote>
+                                <cite class="voice-author">1年 K.Y.さん</cite>
+                            </div>
+                        </div>
+                        <div class="voices-controls">
+                            <button class="voice-control voice-control--prev" aria-label="前の声を表示">‹</button>
+                            <div class="voice-indicators">
+                                <button class="voice-indicator active" aria-label="1番目の声を表示"></button>
+                                <button class="voice-indicator" aria-label="2番目の声を表示"></button>
+                                <button class="voice-indicator" aria-label="3番目の声を表示"></button>
+                            </div>
+                            <button class="voice-control voice-control--next" aria-label="次の声を表示">›</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq" id="faq" aria-labelledby="faq-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="faq-title" class="section-title">
+                        よくある質問
+                        <span class="section-title-accent">気になることがあれば、まずはこちらをチェック</span>
+                    </h2>
+                </header>
+                
+                <div class="faq-list" data-aos="fade-up">
+                    <article class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+                            <span class="faq-question-icon">Q</span>
+                            <span class="faq-question-text">生徒会に参加するにはどうすればいいですか？</span>
+                            <span class="faq-question-arrow" aria-hidden="true">›</span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-1" aria-hidden="true">
+                            <div class="faq-answer-content">
+                                <span class="faq-answer-icon">A</span>
+                                <p>生徒会への参加方法は複数あります。役員選挙に立候補する、委員会活動に参加する、
+                                イベントのボランティアスタッフとして協力するなどの方法があります。
+                                詳しくは生徒会室（3階）までお気軽にお越しください。</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+                            <span class="faq-question-icon">Q</span>
+                            <span class="faq-question-text">生徒会の活動頻度はどのくらいですか？</span>
+                            <span class="faq-question-arrow" aria-hidden="true">›</span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-2" aria-hidden="true">
+                            <div class="faq-answer-content">
+                                <span class="faq-answer-icon">A</span>
+                                <p>定例会議は月2回（第2・第4水曜日の放課後）開催しています。
+                                その他、イベント前や重要な議題がある場合は臨時会議を行うことがあります。
+                                活動時間は平日の放課後1〜2時間程度です。</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+                            <span class="faq-question-icon">Q</span>
+                            <span class="faq-question-text">意見や要望はどのように伝えればいいですか？</span>
+                            <span class="faq-question-arrow" aria-hidden="true">›</span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-3" aria-hidden="true">
+                            <div class="faq-answer-content">
+                                <span class="faq-answer-icon">A</span>
+                                <p>このサイトの意見箱フォーム、各階に設置されている意見箱、
+                                生徒会メンバーへの直接相談など、様々な方法で意見をお聞かせください。
+                                匿名での投稿も可能ですので、お気軽にご利用ください。</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+                            <span class="faq-question-icon">Q</span>
+                            <span class="faq-question-text">イベントの企画を提案することはできますか？</span>
+                            <span class="faq-question-arrow" aria-hidden="true">›</span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-4" aria-hidden="true">
+                            <div class="faq-answer-content">
+                                <span class="faq-answer-icon">A</span>
+                                <p>もちろん可能です！新しいイベントの企画や既存イベントの改善案など、
+                                積極的に提案をお待ちしています。企画書の書き方や実現に向けたサポートも行いますので、
+                                まずは生徒会までご相談ください。</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 最終CTA -->
+        <section class="final-cta" id="contact" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta-content" data-aos="fade-up">
+                    <h2 id="cta-title" class="cta-title">
+                        あなたの学校生活を、もっと豊かに。<br>
+                        <span class="cta-title-accent">生徒会と一緒に、未来を創りませんか？</span>
+                    </h2>
+                    
+                    <p class="cta-description">
+                        千葉英和高校をより良い学校にするため、あなたの声をお聞かせください。
+                        小さな意見から大きなアイデアまで、すべてが学校を変える力になります。
+                    </p>
+                    
+                    <div class="cta-buttons">
+                        <a href="#opinion-form" class="btn btn--primary btn--large">生徒会に意見を送る</a>
+                        <a href="#join-form" class="btn btn--secondary btn--large">生徒会活動に参加する</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-skyline" aria-hidden="true"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">千葉英和高校生徒会</h3>
+                    <p class="footer-description">
+                        生徒一人ひとりが理想とする自分に向かって進むことのできる学校をつくる
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-section-title">学校情報</h4>
+                    <address class="footer-address">
+                        〒276-0028<br>
+                        千葉県八千代市村上709-1<br>
+                        TEL: 047-484-5141<br>
+                        FAX: 047-487-5466
+                    </address>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-section-title">リンク</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">学校公式サイト</a></li>
+                        <li><a href="#" class="footer-link">入試情報</a></li>
+                        <li><a href="#" class="footer-link">進路情報</a></li>
+                        <li><a href="#" class="footer-link">部活動紹介</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-section-title">お問い合わせ</h4>
+                    <ul class="footer-contact">
+                        <li>生徒会室: 3階</li>
+                        <li>受付時間: 平日 15:30-17:00</li>
+                        <li>Email: student-council@ceh.ed.jp</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; 2024 千葉英和高校生徒会. All rights reserved.
+                </p>
+                <nav class="footer-legal" aria-label="法的情報">
+                    <a href="#" class="footer-legal-link">プライバシーポリシー</a>
+                    <a href="#" class="footer-legal-link">利用規約</a>
+                    <a href="#" class="footer-legal-link">サイトマップ</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
